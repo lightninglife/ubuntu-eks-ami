@@ -1,0 +1,17 @@
+{
+  "builds": [
+    {
+      "name": "amazon-ebs",
+      "builder_type": "amazon-ebs",
+      "build_time": 1714404367,
+      "files": null,
+      "artifact_id": "us-east-1:ami-04d59434fdd830494",
+      "packer_run_uuid": "a652336d-380c-05c7-8628-cd6b0030b808",
+      "custom_data": {
+        "source_ami_id": "ami-06bcefa591ba52ec2",
+        "source_ami_name": "ubuntu-eks/k8s_1.29/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20240411"
+      }
+    }
+  ],
+  "last_run_uuid": "a652336d-380c-05c7-8628-cd6b0030b808"
+}
