@@ -123,7 +123,7 @@ LOG_FILE="/var/log/userdata.log"
 # Redirect all output (stdout and stderr) to the log file
 sudo touch $LOG_FILE
 sudo chmod 777 $LOG_FILE
-nohup exec >> "$LOG_FILE" 2>&1 &
+command >> "$LOG_FILE" 2>&1
 
 set -x
 
